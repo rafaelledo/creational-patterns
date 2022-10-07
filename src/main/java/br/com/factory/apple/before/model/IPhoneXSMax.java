@@ -1,6 +1,10 @@
-package br.com.factory.apple.model;
+package br.com.factory.apple.before.model;
 
 public class IPhoneXSMax extends IPhone {
+	@Override
+	public String toString() {
+		return "iPhone XS Max";
+	}
 
 	@Override
 	public void getHardware() {

@@ -1,9 +1,14 @@
-package br.com.factory.apple.model;
+package br.com.factory.apple.before.model;
 
 public abstract class IPhone {
-	
+
+	@Override
+	public String toString() {
+		return "iPhone";
+	}
+
 	public abstract void getHardware();
-	
+
 	public void assemble() {
 		System.out.println("Assembling all the hardwares");
 	}
@@ -15,4 +20,5 @@ public abstract class IPhone {
 	public void pack() {
 		System.out.println("Packing the device");
 	}
+
 }

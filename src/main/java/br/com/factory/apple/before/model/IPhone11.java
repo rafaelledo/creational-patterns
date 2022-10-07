@@ -1,6 +1,10 @@
-package br.com.factory.apple.model;
+package br.com.factory.apple.before.model;
 
 public class IPhone11 extends IPhone {
+	@Override
+	public String toString() {
+		return "iPhone 11";
+	}
 
 	@Override
 	public void getHardware() {
