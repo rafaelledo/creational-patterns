@@ -8,6 +8,15 @@ import br.com.factory.apple.simple.model.IPhoneXSMax;
 
 public class IPhoneSimpleFactory {
   
+  /**
+   * @param generation
+   *  Can be "X" or "11"
+   * @param level
+   *  Can be "standard" or "highEnd"
+   * @return
+   *  an instance of iPhone
+   */
+
   public static IPhone orderIPhone (String generation, String level) {
     IPhone device = null;
 
