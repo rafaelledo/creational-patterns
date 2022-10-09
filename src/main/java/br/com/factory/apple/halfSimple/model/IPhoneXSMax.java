@@ -1,7 +1,6 @@
-package br.com.factory.apple.before.model;
+package br.com.factory.apple.halfSimple.model;
 
 public class IPhoneXSMax extends IPhone {
-
 	@Override
 	public String toString() {
 		return "iPhone XS Max";
@@ -15,5 +14,4 @@ public class IPhoneXSMax extends IPhone {
 		System.out.println("\t- 4Gb RAM");
 		System.out.println("\t- 512Gb Memory");
 	}
-
 }

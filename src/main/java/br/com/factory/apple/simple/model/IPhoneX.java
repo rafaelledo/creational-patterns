@@ -1,7 +1,6 @@
-package br.com.factory.apple.before.model;
+package br.com.factory.apple.simple.model;
 
 public class IPhoneX extends IPhone {
-
 	@Override
 	public String toString() {
 		return "iPhone X";
@@ -15,5 +14,4 @@ public class IPhoneX extends IPhone {
 		System.out.println("\t- 3GB RAM");
 		System.out.println("\t- 256GB Storage");
 	}
-
 }

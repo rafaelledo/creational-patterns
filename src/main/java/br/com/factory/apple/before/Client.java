@@ -10,18 +10,22 @@ public class Client {
 	public IPhone orderIPhone (String generation, String level) {
 		IPhone device = null;
 
-		if (generation.equals("X")) {
-			if (level.equals("standard")) {
+		if ("X".equals(generation)) {
+			if ("standard".equals(level)) {
 				device = new IPhoneX();
-			} else if (level.equals("highEnd")) {
+			} else if ("highEnd".equals(level)) {
 				device = new IPhoneXSMax();
 			}
 		} else if (generation.equals("11")) {
-			if (level.equals("standard")) {
+			if ("standard".equals(level)) {
 				device = new IPhone11();
-			} else if (level.equals("highEnd")) {
+			} else if ("highEnd".equals(level)) {
 				device = new IPhone11Pro();
 			}
+		}
+
+		if (device == null) {
+			return null;
 		}
 
 		device.getHardware();
