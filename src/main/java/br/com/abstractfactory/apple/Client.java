@@ -2,6 +2,7 @@ package br.com.abstractfactory.apple;
 
 import br.com.abstractfactory.apple.factory.IPhoneFactory;
 import br.com.abstractfactory.apple.factory.IPhoneXFactory;
+
 import br.com.abstractfactory.apple.factory.abstractFactory.BrazilianRulesAbstractFactory;
 import br.com.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
 

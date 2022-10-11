@@ -1,7 +1,7 @@
-package br.com.singleton.connectionPool;
+package br.com.singleton.connectionPool.before;
 
-import br.com.singleton.connectionPool.conn.Connection;
-import br.com.singleton.connectionPool.conn.ConnectionPool;
+import br.com.singleton.connectionPool.before.conn.Connection;
+import br.com.singleton.connectionPool.before.conn.ConnectionPool;
 
 public class Client {
 	public static void doQuery1() {
