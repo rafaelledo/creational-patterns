@@ -1,4 +1,4 @@
-package br.com.builder.meal.model;
+package br.com.builder.meal.after.model;
 
 public class FastFoodMeal {
 
