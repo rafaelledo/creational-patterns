@@ -3,7 +3,7 @@ package br.com.prototype.deepShallow.model;
 public class Address implements Cloneable {
 	public String street;
 	public Integer number;
-	
+
 	public Address(String street, Integer number) {
 		super();
 		this.street = street;
